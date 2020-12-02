@@ -8,7 +8,9 @@ class Header extends Component {
     render() {
         return (
             <div className="row" id="navbarContainer">
-                <div className="col-md-12">
+                
+
+                <div className="col-md-11">
                     <Navbar>
                         <NavLink id="homeBtn" to="/">Lauren Noeltner</NavLink>
                         <NavLink id="aboutBtn" to="/About">About Me</NavLink>
@@ -16,6 +18,8 @@ class Header extends Component {
                         <NavLink id="contactBtn" to="/Contact">Contact Me</NavLink>
                     </Navbar>
                 </div>
+                
+
             </div>
         );
     }

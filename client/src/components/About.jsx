@@ -17,6 +17,7 @@ const About = () => {
                         </h2>
                     </div>
                 </div>
+                <hr />
                 <div className="row">
                     <div className="col-6">
                         <img alt="Lauren Noeltner" className="profileImg" src={LaurenIMG} />

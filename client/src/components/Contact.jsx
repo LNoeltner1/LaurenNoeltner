@@ -9,9 +9,14 @@ const Contact = () => {
             <Header />
             <container>
                 <div className="row">
-                    <h2 className="pageTitle">
+                    <div className="col-1"></div>
+
+                    <h2 className="col-10 pageTitle">
                         Contact Me
                     </h2>
+                    <hr />
+                    <div className="col-1"></div>
+
                 </div>
                 
             </container>
