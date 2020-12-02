@@ -7,14 +7,17 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <Switch>
+            <Route exact path="/" component={Login} />
+            <Route exact path="/" component={Login} />
+            <Route exact path="/" component={Login} />
+          </Switch>
+        </header>
+      </div>
+    </Router>
   );
 }
 
