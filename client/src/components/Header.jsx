@@ -11,9 +11,9 @@ class Header extends Component {
                 <div className="col-md-12">
                     <Navbar>
                         <NavLink id="homeBtn" to="/" activeClassName="selected">Lauren Noeltner</NavLink>
-                        <NavLink id="aboutBtn" to="/About" activeClassName="selected">About Me</NavLink>
-                        <NavLink id="portfolioBtn" to="/Portfolio" activeClassName="selected">My Projects</NavLink>
                         <NavLink id="contactBtn" to="/Contact" activeClassName="selected">Contact Me</NavLink>
+                        <NavLink id="portfolioBtn" to="/Portfolio" activeClassName="selected">My Projects</NavLink>
+                        <NavLink id="aboutBtn" to="/About" activeClassName="selected">About Me</NavLink>
                     </Navbar>
                 </div>
             </div>
