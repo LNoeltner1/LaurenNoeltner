@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 #homeBtn {
     font-size: 30px;
     margin-right: 15px;
@@ -19,5 +21,24 @@
     font-size: 23px;
     margin-right: 15px;
     float: right;
+}
 
+/* HOME PAGE ITEMS */
+
+#homeLauren {
+    text-align: center;
+}
+
+#descriptionHome {
+    text-align: center;
+}
+
+#viewMoreBtn {
+    text-align: center;
+    /* TODO: Checkout how to center */
+}
+
+/* FOOTER STUFF */
+#madeByText {
+    text-align: center;
 }
