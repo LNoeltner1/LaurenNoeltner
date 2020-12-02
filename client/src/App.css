@@ -1,0 +1,23 @@
+#homeBtn {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+#aboutBtn {
+    font-size: 23px;
+    margin-right: 15px;
+    float: right;
+}
+
+#portfolioBtn {
+    font-size: 23px;
+    margin-right: 15px;
+    float: right;
+}
+
+#contactBtn {
+    font-size: 23px;
+    margin-right: 15px;
+    float: right;
+
+}
