@@ -7,7 +7,7 @@ import LaurenIMG from "../Images/IMG_0575_83501212705938.JPG";
 
 const About = () => {
     return (
-        <>
+        <div className="mainWrapper">
             <Header />
             <main className="container">
                 <div className="row">
@@ -53,7 +53,7 @@ const About = () => {
                 </div>
             </main>
             <Footer />
-        </>
+        </div>
     );
 };
 

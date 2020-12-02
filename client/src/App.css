@@ -54,6 +54,32 @@
     font-size: larger;
 }
 
+/* PORTFOLIO STUFF */
+.titleText {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.descriptionText {
+    color: white;
+    text-align: center;
+}
+.carouselItem {
+    /* pictures on carousel */  
+    padding: 15px;
+    margin: 15px;
+    max-height: 2000px;
+}
+.carouselContainer {
+    background-color: rgb(23, 23, 23);
+
+}
+
+#carouselWrapper {
+
+    padding: 15px;
+}
 /* FOOTER STUFF */
 #madeByText {
     text-align: center;
