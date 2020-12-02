@@ -14,9 +14,11 @@ const Home = () => {
         <div>
             <Header />
             <div className="row">
-                <div className="col-12">
+                <div className="col-1"></div>
+                <div className="col-10">
                     <h1 id="homeLauren">Lauren Noeltner</h1>
                 </div>    
+                <div className="col-1"></div>
             </div> 
             <div className="row">
                 <div className="col-12">

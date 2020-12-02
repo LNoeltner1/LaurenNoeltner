@@ -21,7 +21,7 @@ const About = () => {
                     <div className="col-6">
                         <img alt="Lauren Noeltner" className="profileImg" src={LaurenIMG} />
                     </div>
-                    <div className="col-6">
+                    <div id="bioText" className="col-6">
                         <p>
                             I am a full-stack developer born and currently based in Atlanta,
                             Georgia. I have successfully completed Georgia Tech's Full-Stack Web Development

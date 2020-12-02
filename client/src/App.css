@@ -8,19 +8,17 @@
 #aboutBtn {
     font-size: 23px;
     margin-right: 15px;
-    float: right;
 }
 
 #portfolioBtn {
     font-size: 23px;
     margin-right: 15px;
-    float: right;
 }
 
 #contactBtn {
     font-size: 23px;
     margin-right: 15px;
-    float: right;
+    
 }
 
 /* HOME PAGE ITEMS */
@@ -45,6 +43,15 @@
     border-style: solid;
     padding: 8px;
     color: black;
+}
+
+/* ABOUT ME PAGE STUFF */
+.profileImg {
+    max-height: 70%;
+}
+
+#bioText {
+    font-size: larger;
 }
 
 /* FOOTER STUFF */
