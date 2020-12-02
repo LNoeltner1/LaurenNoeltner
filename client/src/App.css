@@ -33,9 +33,18 @@
     text-align: center;
 }
 
-#viewMoreBtn {
+.viewMoreBtn {
     text-align: center;
-    /* TODO: Checkout how to center */
+    
+    
+}
+.viewMore {
+    border-color: black;
+    border-width: 2px;
+    font-weight: 700;
+    border-style: solid;
+    padding: 8px;
+    color: black;
 }
 
 /* FOOTER STUFF */
