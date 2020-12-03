@@ -1,5 +1,6 @@
 import React from 'react';
 import "../App.css";
+import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Carousel from 'react-bootstrap/Carousel';
@@ -55,6 +56,20 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                 </div>
                                 <div className="row">
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/GiddyItUp">GitHub</a>
+                                    </div>
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check the deployed application:
+                                        </p>
+                                        <a href="https://giddyitup-eg.herokuapp.com/">Check It Out!</a>
+                                    </div>
+                                </div>
+                                <div className="row">
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
@@ -63,6 +78,7 @@ const Portfolio = () => {
                                         />
                                     </div>
                                 </div>
+                                
                                 
                         </Carousel.Item>
                         {/* ITEM 2 */}
@@ -85,6 +101,20 @@ const Portfolio = () => {
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
+                                </div>
+                                <div className="row">
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/cryptic-encounters">GitHub</a>
+                                    </div>
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check the deployed application:
+                                        </p>
+                                        <a href="https://cryptic-encounter.herokuapp.com">Check It Out!</a>
+                                    </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-12">
@@ -115,6 +145,20 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                 </div>
                                 <div className="row">
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/budget-tracker">GitHub</a>
+                                    </div>
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check the deployed application:
+                                        </p>
+                                        <a href="https://budget-tracker-lnoeltner.herokuapp.com/">Check It Out!</a>
+                                    </div>
+                                </div>
+                                <div className="row">
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
@@ -143,6 +187,20 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                 </div>
                                 <div className="row">
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/workout_tracker">GitHub</a>
+                                    </div>
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check the deployed application:
+                                        </p>
+                                        <a href="https://workout-tracker-3.herokuapp.com/">Check It Out!</a>
+                                    </div>
+                                </div>
+                                <div className="row">
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
@@ -167,6 +225,15 @@ const Portfolio = () => {
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
+                                </div>
+                                <div className="row">
+                                    <div className="portfolioLinks col-12">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/Employee_Summary_Template_Engine">GitHub</a>
+                                    </div>
+                                    
                                 </div>
                                 <div className="row">
                                     <div className="col-12">
@@ -196,6 +263,20 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                 </div>
                                 <div className="row">
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub</a>
+                                    </div>
+                                    <div className="portfolioLinks col-6">
+                                        <p>
+                                            Check the deployed application:
+                                        </p>
+                                        <a href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Check It Out!</a>
+                                    </div>
+                                </div>
+                                <div className="row">
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
@@ -220,6 +301,14 @@ const Portfolio = () => {
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
+                                </div>
+                                <div className="row">
+                                    <div className="portfolioLinks col-12">
+                                        <p>
+                                            Check out the repository out at GitHub:
+                                        </p>
+                                        <a href="https://github.com/LNoeltner1/README_Generator">GitHub</a>
+                                    </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-12">
