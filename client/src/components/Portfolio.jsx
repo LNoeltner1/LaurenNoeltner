@@ -160,13 +160,10 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                     <div className="col-10">
                                         
-                                        <h3 className="titleText">GiddyItUp</h3>
+                                        <h3 className="titleText">Employee Team Generator CLI</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            A CLI app for generating a page that shows all employees in an organized 
+                                            way. The user can input name, title and other factors depending on their title.
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
@@ -189,13 +186,11 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                     <div className="col-10">
                                         
-                                        <h3 className="titleText">GiddyItUp</h3>
+                                        <h3 className="titleText">Random Password Generator</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            A random password generator app with the option to use or 
+                                            not use different character types. The user can specify the 
+                                            length and the types of characters they want to include in their password.
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
