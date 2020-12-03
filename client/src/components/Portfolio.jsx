@@ -6,6 +6,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import GiddyItUp from "../Images/GiddyItUp_screenshot.png";
 import Cryptic from "../Images/cryptic_encounters_screenshot.png";
 import Budget from "../Images/budget_tracker_screenshot.png";
+import Workout from "../Images/workout_screenshot_charts.png";
+import TeamGenerator from "../Images/teamgeneratorthumbnail.png";
+import Password from "../Images/03-javascript-homework-demo.png";
+
 
 
 
@@ -142,7 +146,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={Workout}
                                         alt="First slide"
                                         />
                                     </div>
@@ -171,7 +175,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={TeamGenerator}
                                         alt="First slide"
                                         />
                                     </div>
@@ -200,7 +204,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={Password}
                                         alt="First slide"
                                         />
                                     </div>
