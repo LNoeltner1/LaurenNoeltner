@@ -47,7 +47,8 @@
 
 /* ABOUT ME PAGE STUFF */
 .profileImg {
-    max-height: 70%;
+    max-height: 100vh;
+    
 }
 
 #bioText {

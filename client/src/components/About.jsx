@@ -19,15 +19,15 @@ const About = () => {
                 </div>
                 <hr />
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-xs-12 col-sm-4 col-md-6">
                         <img alt="Lauren Noeltner" className="profileImg" src={LaurenIMG} />
                     </div>
-                    <div id="bioText" className="col-6">
+                    <div id="bioText" className="col-xs-12 col-sm-8 col-md-6">
                         <p>
                             I am a full-stack developer born and currently based in Atlanta,
                             Georgia. I have successfully completed Georgia Tech's Full-Stack Web Development
                             Bootcamp as of early November 2020. I have always had a wide range of interests, from fine
-                            arts to the hard sciences, and I have been lucky to get a chance to
+                            arts to the sciences, and I have been lucky to get a chance to
                             explore most of them at some point in my life.
                         </p>
                         <p>
