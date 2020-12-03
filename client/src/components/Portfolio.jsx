@@ -9,6 +9,7 @@ import Budget from "../Images/budget_tracker_screenshot.png";
 import Workout from "../Images/workout_screenshot_charts.png";
 import TeamGenerator from "../Images/teamgeneratorthumbnail.png";
 import Password from "../Images/03-javascript-homework-demo.png";
+import Readme from "../Images/Screenshot.png";
 
 
 
@@ -131,13 +132,12 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                     <div className="col-10">
                                         
-                                        <h3 className="titleText">GiddyItUp</h3>
+                                        <h3 className="titleText">Workout Tracker</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            Workout tracker app with a MySQL database to save their workouts. 
+                                            The user can input workouts by type and other factors such as time 
+                                            and distance, and view several graphical summaries of their workouts 
+                                            over time. 
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
@@ -233,7 +233,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={Readme}
                                         alt="First slide"
                                         />
                                     </div>
