@@ -60,7 +60,9 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/GiddyItUp">GitHub</a>
+                                        <a href="https://github.com/LNoeltner1/GiddyItUp">
+                                            GitHub
+                                        </a>
                                     </div>
                                     <div className="portfolioLinks col-6">
                                         <p>
