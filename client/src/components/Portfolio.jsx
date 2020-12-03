@@ -213,13 +213,10 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                     <div className="col-10">
                                         
-                                        <h3 className="titleText">GiddyItUp</h3>
+                                        <h3 className="titleText">README Generator</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            A CLI README generator node app that will prompt
+                                            the user for information about their project and generate a markdown page upon completion. 
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
