@@ -69,11 +69,14 @@ const Portfolio = () => {
                                         
                                         <h3 className="titleText">Cryptic Encounters</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            A delightfully spooky haunted house walk through game with interactive dialogue 
+                                            and varying content. The player finds themselves trapped in 
+                                            a haunted house, populated by a group of not-so-mean ghosts.
+                                            They must interact with all of these ghosts to escape the house, 
+                                            and have the option of choosing positive or negative interactions
+                                            with corresponding responses from the spirits.
+                                            Made using a persona generator API, a backend 
+                                            MongoDB database and Handlebars.
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
@@ -82,7 +85,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={Cryptic}
                                         alt="First slide"
                                         />
                                     </div>
@@ -96,13 +99,12 @@ const Portfolio = () => {
                                     <div className="col-1"></div>
                                     <div className="col-10">
                                         
-                                        <h3 className="titleText">GiddyItUp</h3>
+                                        <h3 className="titleText">Budget Tracker</h3>
                                         <p className="descriptionText">
-                                            Wild West-themed chore app for young children, who can enlist as 
-                                            'Deputies' to their parents (the 'Sheriffs') and complete extra 
-                                            chores around the house in exchange for points. Points can earn 
-                                            them extra privileges at home, such as a later bedtime, a more 
-                                            screentime, or whatever the parent can think of!
+                                            Online/offline budget tracker using a 
+                                            local database to store user information over sessions.
+                                            The user can input and view a list of expenses and spending over time, 
+                                            and can even view a graph of their spending over the lifespan of the local database.
                                         </p>
                                     </div> 
                                     <div className="col-1"></div>
@@ -111,7 +113,7 @@ const Portfolio = () => {
                                     <div className="col-12">
                                         <img
                                         className="carouselItem d-block w-100"
-                                        src={GiddyItUp}
+                                        src={Budget}
                                         alt="First slide"
                                         />
                                     </div>
