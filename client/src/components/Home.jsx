@@ -12,7 +12,6 @@ import "../App.css";
 const Home = () => {
     return (
         <div>
-            <Header />
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-10">
