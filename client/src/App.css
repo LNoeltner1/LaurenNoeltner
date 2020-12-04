@@ -78,6 +78,15 @@
 
 }
 
+/* CONTACT STUFF */
+.githubLink {
+    text-align: center;
+}
+
+.linkedinLink {
+    text-align: center;
+}
+
 #carouselWrapper {
 
     padding: 15px;
