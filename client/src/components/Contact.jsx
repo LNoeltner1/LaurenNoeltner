@@ -2,6 +2,8 @@ import React from 'react';
 import "../App.css";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 const Contact = () => {
     return (
@@ -16,9 +18,21 @@ const Contact = () => {
                     </h2>
                     <hr />
                     <div className="col-1"></div>
-
                 </div>
-                
+                <div className="row">
+                    <div className="col-12">
+                        <h2> 
+                            <Link to="https://github.com/LNoeltner1">Contact Me on GitHub</Link>
+                        </h2>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <h2> 
+                            <Link to="https://www.linkedin.com/in/lauren-noeltner-102b731a)">Contact me via LinkedIn</Link>
+                        </h2>
+                    </div>
+                </div>
             </container>
             <Footer />
         </div>
