@@ -33,6 +33,7 @@
     background-color: rgb(173, 97, 97);
     padding: 10px;
     color: white;
+    margin: 15px;;
 }
 
 /* HOME PAGE ITEMS */
@@ -117,10 +118,20 @@
 /* CONTACT STUFF */
 .githubLink {
     text-align: center;
+    margin: 20px;
 }
 
 .linkedinLink {
     text-align: center;
+    margin: 20px;
+}
+
+.contactLinks {
+    color: rgb(82, 42, 42);
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    
 }
 
 #carouselWrapper {

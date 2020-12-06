@@ -22,14 +22,14 @@ const Contact = () => {
                 <div className="row">
                     <div className="githubLink col-12">
                         <h2> 
-                            <a href="https://github.com/LNoeltner1">Contact Me on GitHub</a>
+                            <a className="contactLinks" href="https://github.com/LNoeltner1">Contact Me on GitHub</a>
                         </h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="linkedinLink col-12">
                         <h2> 
-                            <a href="https://www.linkedin.com/in/lauren-noeltner-102b731a)">Contact me via LinkedIn</a>
+                            <a className="contactLinks" href="https://www.linkedin.com/in/lauren-noeltner-102b731a)">Contact me via LinkedIn</a>
                         </h2>
                     </div>
                 </div>
