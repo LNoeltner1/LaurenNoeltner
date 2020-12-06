@@ -2,15 +2,12 @@ import React from 'react';
 import "../App.css";
 import Header from "./Header";
 import Footer from "./Footer";
-// import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import texture from "../Images/paintTexture.jpeg";
 
 
 const Contact = () => {
     return (
         <div className="mainWrapper">
             <Header />
-            <container>
                 <div className="row">
                     <div className="col-1"></div>
 
@@ -35,7 +32,6 @@ const Contact = () => {
                     </div>
                 </div>
                 {/* TODO: add  resume PDF download button and maybe more  ???  */}
-            </container>
             <Footer />
         </div>
     );

@@ -38,6 +38,8 @@
 
 .mainWrapper {
     background-image: url(./Images/thickpaint.jpeg);
+    background-repeat: repeat-y;
+    
     
 }
 
@@ -146,7 +148,11 @@
 
     padding: 15px;
 }
+
+
 /* FOOTER STUFF */
 #madeByText {
     text-align: center;
+    margin: 20px;
+    padding: 10px;
 }
