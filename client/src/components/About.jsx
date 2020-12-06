@@ -26,8 +26,7 @@ const About = () => {
                     <div id="bioText" className="col-xs-12 col-sm-12 col-md-8">
                         <p>
                             I am a full-stack developer currently based in Atlanta,
-                            Georgia. I have successfully completed Georgia Tech's Full-Stack Web Development
-                            Bootcamp as of early November 2020. I have always had a wide range of interests, from fine
+                            Georgia. I have always had a wide range of interests, from fine
                             arts to the sciences, and I have been lucky to get a chance to
                             explore most of them at some point in my life.
                         </p>
@@ -46,9 +45,10 @@ const About = () => {
                             painting/making something.
                         </p>
                         <p>
-                            I have recently graduated from the Georgia Tech Coding Full Stack We Development Bootcamp,
-                            and I greatly enjoyed the opportunity to strengthen my skills as
-                            a developer. See my portfolio for some of my completed projects from inside and outside of class!
+                            I graduated from the Georgia Tech Full Stack Web Development Bootcamp,
+                            and I absolutely loved the opportunity to strengthen my skills as
+                            a developer in an environment with other budding developers. 
+                            See my portfolio for some of my completed projects from inside and outside of class!
                         </p>
                     </div>
                 </div>

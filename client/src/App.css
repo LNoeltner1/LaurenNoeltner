@@ -80,6 +80,8 @@
 
 #bioText {
     font-size: larger;
+    background-color: rgba(255, 255, 255, 0.781);
+    padding: 1%;
 }
 
 /* PORTFOLIO STUFF */
