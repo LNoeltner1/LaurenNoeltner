@@ -60,7 +60,7 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/GiddyItUp">
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/GiddyItUp">
                                             GitHub
                                         </a>
                                     </div>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                                         <p>
                                             Check the deployed application:
                                         </p>
-                                        <a href="https://giddyitup-eg.herokuapp.com/">Check It Out!</a>
+                                        <a className="externalLink" href="https://giddyitup-eg.herokuapp.com/">Check It Out!</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -109,13 +109,13 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/cryptic-encounters">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/cryptic-encounters">GitHub</a>
                                     </div>
                                     <div className="portfolioLinks col-6">
                                         <p>
                                             Check the deployed application:
                                         </p>
-                                        <a href="https://cryptic-encounter.herokuapp.com">Check It Out!</a>
+                                        <a className="externalLink" href="https://cryptic-encounter.herokuapp.com">Check It Out!</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -151,13 +151,13 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/budget-tracker">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/budget-tracker">GitHub</a>
                                     </div>
                                     <div className="portfolioLinks col-6">
                                         <p>
                                             Check the deployed application:
                                         </p>
-                                        <a href="https://budget-tracker-lnoeltner.herokuapp.com/">Check It Out!</a>
+                                        <a className="externalLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Check It Out!</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -193,13 +193,13 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/workout_tracker">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/workout_tracker">GitHub</a>
                                     </div>
                                     <div className="portfolioLinks col-6">
                                         <p>
                                             Check the deployed application:
                                         </p>
-                                        <a href="https://workout-tracker-3.herokuapp.com/">Check It Out!</a>
+                                        <a className="externalLink" href="https://workout-tracker-3.herokuapp.com/">Check It Out!</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -233,7 +233,7 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/Employee_Summary_Template_Engine">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/Employee_Summary_Template_Engine">GitHub</a>
                                     </div>
                                     
                                 </div>
@@ -269,13 +269,13 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub</a>
                                     </div>
                                     <div className="portfolioLinks col-6">
                                         <p>
                                             Check the deployed application:
                                         </p>
-                                        <a href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Check It Out!</a>
+                                        <a className="externalLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Check It Out!</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -309,7 +309,7 @@ const Portfolio = () => {
                                         <p>
                                             Check out the repository out at GitHub:
                                         </p>
-                                        <a href="https://github.com/LNoeltner1/README_Generator">GitHub</a>
+                                        <a className="externalLink" href="https://github.com/LNoeltner1/README_Generator">GitHub</a>
                                     </div>
                                 </div>
                                 <div className="row">

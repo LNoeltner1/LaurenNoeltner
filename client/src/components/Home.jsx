@@ -19,6 +19,7 @@ const Home = () => {
                 </div>    
                 <div className="col-1"></div>
             </div> 
+            <hr></hr>
             <div className="row">
                 <div className="col-12">
                     <h3 id="descriptionHome">Full Stack Web Developer in Atlanta, GA, always looking for new opportunities to strengthen my skills and create innovative apps.</h3>

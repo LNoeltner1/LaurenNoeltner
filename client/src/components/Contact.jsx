@@ -33,6 +33,7 @@ const Contact = () => {
                         </h2>
                     </div>
                 </div>
+                {/* TODO: add  resume PDF download button and maybe more  ???  */}
             </container>
             <Footer />
         </div>

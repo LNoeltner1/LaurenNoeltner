@@ -3,38 +3,54 @@
 #homeBtn {
     font-size: 30px;
     margin-right: 15px;
+    color: rgb(78, 34, 34);
+    font-weight: 600;
 }
 
 #aboutBtn {
     font-size: 23px;
     margin-right: 15px;
+    color: rgb(139, 68, 68);
+
 }
 
 #portfolioBtn {
     font-size: 23px;
     margin-right: 15px;
+    color: rgb(139, 68, 68);
+
 }
 
 #contactBtn {
     font-size: 23px;
     margin-right: 15px;
+    color: rgb(139, 68, 68);
     
+}
+
+/* GENERAL */
+.pageTitle {
+    background-color: gray;
 }
 
 /* HOME PAGE ITEMS */
 
 #homeLauren {
     text-align: center;
+    margin-top: 1%;
+    background-color: gray;
+    color: white;
 }
 
 #descriptionHome {
     text-align: center;
+    padding: 3%;
+    margin: 1%;
 }
 
 .viewMoreBtn {
     text-align: center;
-    
-    
+    margin-top: 1%;
 }
 .viewMore {
     border-color: black;
@@ -43,6 +59,9 @@
     border-style: solid;
     padding: 8px;
     color: black;
+    padding: 1%;
+    font-weight: 800;
+    background-color: lightcoral;
 }
 
 /* ABOUT ME PAGE STUFF */
@@ -56,15 +75,30 @@
 }
 
 /* PORTFOLIO STUFF */
-.titleText, .portfolioLinks {
-    color: white;
+
+.titleText {
+    color: rgb(199, 94, 94);
     text-align: center;
     margin-top: 3%;
+}
+.portfolioLinks {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.externalLink {
+    color: white;
+    border-style: solid;
+    padding: 10px;
+    border-color: rgb(182, 143, 143);
+    background-color: rgb(170, 70, 70);
+
 }
 
 .descriptionText {
     color: white;
     text-align: center;
+    margin: 2%;
 }
 .carouselItem {
     /* pictures on carousel */  
