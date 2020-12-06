@@ -9,8 +9,8 @@ class Header extends Component {
         return (
             <div className="row" id="navbarContainer">
                 
-
-                <div className="col-md-11">
+                <div className="col-1"></div>
+                <div className="col-md-10">
                     <Navbar>
                         <NavLink id="homeBtn" to="/">Lauren Noeltner</NavLink>
                         <NavLink id="aboutBtn" to="/About">About Me</NavLink>
@@ -18,6 +18,7 @@ class Header extends Component {
                         <NavLink id="contactBtn" to="/Contact">Contact Me</NavLink>
                     </Navbar>
                 </div>
+                <div className="col-1"></div>
                 
 
             </div>
