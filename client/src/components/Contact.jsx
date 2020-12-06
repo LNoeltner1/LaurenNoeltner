@@ -3,6 +3,7 @@ import "../App.css";
 import Header from "./Header";
 import Footer from "./Footer";
 // import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import texture from "../Images/paintTexture.jpeg";
 
 
 const Contact = () => {

@@ -3,6 +3,7 @@ import Header from "./Header";
 import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import About from "./About";
 import "../App.css";
+import texture from "../Images/paintTexture.jpeg";
 
 
 
@@ -11,7 +12,7 @@ import "../App.css";
 
 const Home = () => {
     return (
-        <div>
+        <div className="mainWrapper">
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-10">

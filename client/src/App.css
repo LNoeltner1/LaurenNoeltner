@@ -33,7 +33,12 @@
     background-color: rgb(173, 97, 97);
     padding: 10px;
     color: white;
-    margin: 15px;;
+    margin: 15px;
+}
+
+.mainWrapper {
+    background-image: url(./Images/whitePaint.jpeg);
+    
 }
 
 /* HOME PAGE ITEMS */
@@ -41,7 +46,7 @@
 #homeLauren {
     text-align: center;
     margin-top: 1%;
-    background-color: gray;
+    background-color: rgb(139, 91, 91);
     color: white;
 }
 
@@ -118,12 +123,12 @@
 /* CONTACT STUFF */
 .githubLink {
     text-align: center;
-    margin: 20px;
+    margin: 4%;
 }
 
 .linkedinLink {
     text-align: center;
-    margin: 20px;
+    margin: 4%;
 }
 
 .contactLinks {
