@@ -61,7 +61,7 @@ const Portfolio = () => {
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Workout} className="cardImage"/>
                             <Card.Body>
-                            <Card.Title className="titleText">Cryptic Encounters</Card.Title>
+                            <Card.Title className="titleText">Workout Tracker</Card.Title>
                             <Card.Text className="descriptionText">
                                 Workout tracker app with a MySQL database to save their workouts. 
                                 The user can input workouts by type and other factors such as time 
@@ -78,7 +78,7 @@ const Portfolio = () => {
                             <Card.Body>
                             <Card.Title className="titleText">Cryptic Encounters</Card.Title>
                             <Card.Text className="descriptionText">
-                            A delightfully spooky haunted house walk through game with interactive dialogue 
+                                A delightfully spooky haunted house walk through game with interactive dialogue 
                                 and varying content. The player finds themselves trapped in 
                                 a haunted house, populated by a group of not-so-mean ghosts.
                                 They must interact with all of these ghosts to escape the house, 
@@ -105,6 +105,20 @@ const Portfolio = () => {
                         </Card>
                         {/* CARD FIVE */}
                         <Card className="individualCard">
+                            <Card.Img variant="top" src={Password} className="cardImage"/>
+                            <Card.Body>
+                            <Card.Title className="titleText">Random Password Generator</Card.Title>
+                            <Card.Text className="descriptionText">
+                                A random password generator app with the option to use or 
+                                not use different character types. The user can specify the 
+                                length and the types of characters they want to include in their password.
+                            </Card.Text>
+                            <a className="repoLink" href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub Repository</a>
+                            <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Live Project!</a>
+                            </Card.Body>
+                        </Card>
+                        {/* CARD SIX */}
+                        <Card className="individualCard">
                             <Card.Img variant="top" src={Budget} className="cardImage"/>
                             <Card.Body>
                             <Card.Title className="titleText">Budget Tracker</Card.Title>
@@ -118,21 +132,20 @@ const Portfolio = () => {
                             <a className="liveLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD SIX */}
+                        
+                        
+                        {/* CARD SEVEN */}
                         <Card className="individualCard">
-                            <Card.Img variant="top" src={Password} className="cardImage"/>
+                            <Card.Img variant="top" src={Readme} className="cardImage"/>
                             <Card.Body>
-                            <Card.Title className="titleText">Random Password Generator</Card.Title>
+                            <Card.Title className="titleText">CLI ReadME Generator</Card.Title>
                             <Card.Text className="descriptionText">
-                                A random password generator app with the option to use or 
-                                not use different character types. The user can specify the 
-                                length and the types of characters they want to include in their password.
+                            A CLI README generator node app that will prompt
+                                                the user for information about their project and generate a markdown page upon completion.
                             </Card.Text>
-                            <a className="repoLink" href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub Repository</a>
-                            <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Live Project!</a>
+                            <a className="repoLink" href="https://github.com/LNoeltner1/README_Generator">GitHub Repository</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD SEVEN */}
                         
                     </CardColumns>
                     </div>
