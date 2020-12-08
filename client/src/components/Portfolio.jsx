@@ -35,25 +35,25 @@ const Portfolio = () => {
                 </div>
                                 
                 
-                {/* CAROUSEL */}
-                <container className="row carouselContainer">
+                {/* CARD SECTION */}
+                <container className="row projectsContainer">
                     <div className="col-xs-0 col-sm-1"></div>
                     <div className="carouselWrapper col-xs-12 col-sm-10">
                         
                     <CardColumns>
-                        <Card>
-                            <Card.Img variant="top" src={GiddyItUp} />
+                        <Card className="individualCard">
+                            <Card.Img variant="top" src={GiddyItUp} className="cardImage"/>
                             <Card.Body>
-                            <Card.Title>GiddyItUp</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="titleText">GiddyItUp</Card.Title>
+                            <Card.Text className="descriptionText">
                                 Wild West-themed chore app for young children, who can enlist as 
                                 'Deputies' to their parents (the 'Sheriffs') and complete extra 
                                 chores around the house in exchange for points. Points can earn 
                                 them extra privileges at home, such as a later bedtime, a more 
                                 screentime, or whatever the parent can think of!
                             </Card.Text>
-                            <a className="repoLink" href="https://github.com/LNoeltner1">GitHub Repository</a>
-                            <a className="liveLink" href="https://github.com/LNoeltner1">Visit Live Project!</a>
+                            <a className="repoLink" href="https://github.com/LNoeltner1/GiddyItUp">GitHub Repository</a>
+                            <a className="liveLink" href="https://giddyitup-eg.herokuapp.com/">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
                     </CardColumns>

@@ -88,17 +88,7 @@
 
 /* PORTFOLIO STUFF */
 
-.titleText {
-    color: rgb(107, 193, 228);
-    text-align: center;
-    margin-top: 3%;
-}
-.portfolioLinks {
-    color: white;
-    text-align: center;
-    font-weight: 600;
-}
-.externalLink {
+.repoLink, .liveLink {
     color: white;
     border-style: solid;
     padding: 10px;
@@ -107,22 +97,8 @@
 
 }
 
-.descriptionText {
-    color: white;
-    text-align: center;
-    margin: 2%;
-}
-.carouselItem {
-    /* pictures on carousel */  
-    padding: 15px;
-    margin: 15px;
-    margin-bottom: 30px;
-    max-height: 2000px;
-}
-.carouselContainer {
-    background-color: rgb(23, 23, 23);
 
-}
+
 
 /* CONTACT STUFF */
 .githubLink {
