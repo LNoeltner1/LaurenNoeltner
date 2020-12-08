@@ -63,7 +63,7 @@ const Portfolio = () => {
                             <Card.Body>
                             <Card.Title className="titleText">Workout Tracker</Card.Title>
                             <Card.Text className="descriptionText">
-                                Workout tracker app with a MySQL database to save their workouts. 
+                                Workout tracker app with a MySQL database to save the users' workouts. 
                                 The user can input workouts by type and other factors such as time 
                                 and distance, and view several graphical summaries of their workouts 
                                 over time. 
@@ -141,7 +141,7 @@ const Portfolio = () => {
                             <Card.Title className="titleText">CLI ReadME Generator</Card.Title>
                             <Card.Text className="descriptionText">
                             A CLI README generator node app that will prompt
-                                                the user for information about their project and generate a markdown page upon completion.
+                            the user for information about their project and generate a markdown page upon completion.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/README_Generator">GitHub Repository</a>
                             </Card.Body>
