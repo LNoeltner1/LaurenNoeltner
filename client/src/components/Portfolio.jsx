@@ -1,11 +1,11 @@
 import React from 'react';
 import "../App.css";
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Header from "./Header";
-import Footer from "./Footer";
-import Carousel from 'react-bootstrap/Carousel';
+// import Footer from "./Footer";
+// import Carousel from 'react-bootstrap/Carousel';
 import GiddyItUp from "../Images/GiddyItUp_screenshot.png";
 import Cryptic from "../Images/cryptic_encounters_screenshot.png";
 import Budget from "../Images/budget_tracker_screenshot.png";
@@ -13,6 +13,7 @@ import Workout from "../Images/workout_screenshot_charts.png";
 import TeamGenerator from "../Images/teamgeneratorthumbnail.png";
 import Password from "../Images/03-javascript-homework-demo.png";
 import Readme from "../Images/Screenshot.png";
+import Converter from "../Images/everything-converter-screenshot.png";
 
 
 
@@ -41,7 +42,7 @@ const Portfolio = () => {
                     <div className="carouselWrapper col-xs-12 col-sm-10">
                         
                     <CardColumns>
-                        {/* CARD ONE */}
+               
                         <Card className="individualCard">
                             <Card.Img variant="top" src={GiddyItUp} className="cardImage"/>
                             <Card.Body>
@@ -57,7 +58,7 @@ const Portfolio = () => {
                             <a className="liveLink" href="https://giddyitup-eg.herokuapp.com/">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD TWO */}
+                 
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Workout} className="cardImage"/>
                             <Card.Body>
@@ -72,7 +73,7 @@ const Portfolio = () => {
                             <a className="liveLink" href="https://workout-tracker-3.herokuapp.com/">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD THREE */}
+                     
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Cryptic} className="cardImage"/>
                             <Card.Body>
@@ -91,7 +92,7 @@ const Portfolio = () => {
                             <a className="liveLink" href="https://cryptic-encounter.herokuapp.com">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD FOUR */}
+                    
                         <Card className="individualCard">
                             <Card.Img variant="top" src={TeamGenerator} className="cardImage"/>
                             <Card.Body>
@@ -103,7 +104,7 @@ const Portfolio = () => {
                             <a className="repoLink" href="https://github.com/LNoeltner1/Employee_Summary_Template_Engine">GitHub Repository</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD FIVE */}
+              
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Password} className="cardImage"/>
                             <Card.Body>
@@ -117,7 +118,20 @@ const Portfolio = () => {
                             <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Live Project!</a>
                             </Card.Body>
                         </Card>
-                        {/* CARD SIX */}
+                      
+                        <Card className="individualCard">
+                            <Card.Img variant="top" src={Converter} className="cardImage"/>
+                            <Card.Body>
+                            <Card.Title className="titleText">The Everything Converter</Card.Title>
+                            <Card.Text className="descriptionText">
+                                Online React unit conversion app including standard (metric and imperial) for everyday mathematical conversions and non-standard 
+                                measuring units for more fun conversions.
+                            </Card.Text>
+                            <a className="repoLink" href="https://github.com/LNoeltner1/the_everything_calculator">GitHub Repository</a>
+                            <a className="liveLink" href="https://everything-converter.herokuapp.com/">Visit Live Project!</a>
+                            </Card.Body>
+                        </Card>
+
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Budget} className="cardImage"/>
                             <Card.Body>
@@ -134,7 +148,7 @@ const Portfolio = () => {
                         </Card>
                         
                         
-                        {/* CARD SEVEN */}
+                      
                         <Card className="individualCard">
                             <Card.Img variant="top" src={Readme} className="cardImage"/>
                             <Card.Body>

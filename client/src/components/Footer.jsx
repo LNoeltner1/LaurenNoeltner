@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="fixed-bottom">
             
             <p id="madeByText">Made by Lauren Noeltner</p>
-            {/* add copyright logo icon */}
+
         </div>
     );
 };

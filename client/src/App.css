@@ -36,10 +36,12 @@
     margin: 15px;
 }
 
-.mainWrapper {
+body {
     background-image: url(./Images/whitePaint.jpeg);
-    background-repeat: repeat-y;
-    background-repeat: repeat-x; 
+    max-height: 100vh;
+    
+    /* background-repeat: repeat-y;
+    background-repeat: repeat-x;  */
     
     
 }
@@ -83,7 +85,7 @@
 
 #bioText {
     font-size: larger;
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: rgba(255, 255, 255, 0.397);
     padding: 1%;
 }
 
@@ -133,7 +135,8 @@
 /* FOOTER STUFF */
 #madeByText {
     text-align: center;
-    margin: 5px;
+    margin: 0px;
     /* padding: 10px; */
     font-size: 15px;
+    background-color: rgba(255, 255, 240, 0.603);
 }

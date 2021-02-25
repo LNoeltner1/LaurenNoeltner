@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "./Header";
+
 import Footer from "./Footer";
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import About from "./About";
 import "../App.css";
 
@@ -31,10 +31,6 @@ const Home = () => {
                     <Link className="viewMore" to="/About">View More... </Link>
                 </div>   
             </div> 
-            {/* maybe dont need this */}
-            <div className="row">
-                <div className="col-12"></div>
-            </div>
             <Footer />
         </div>
     );

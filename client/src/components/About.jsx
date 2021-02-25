@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from "./Footer";
 import "../App.css";
 import LaurenIMG from "../Images/IMG_0575_83501212705938.JPG";
-import texture from "../Images/paintTexture.jpeg";
+// import texture from "../Images/paintTexture.jpeg";
 
 
 const About = () => {
