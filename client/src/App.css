@@ -2,27 +2,27 @@
 
 #homeBtn {
     font-size: 30px;
-    margin-right: 15px;
+    margin-right: 10px;
     color: rgb(78, 34, 34);
     font-weight: 600;
 }
 
 #aboutBtn {
-    font-size: 23px;
+    font-size: larger;
     margin-right: 15px;
     color: rgb(139, 68, 68);
 
 }
 
 #portfolioBtn {
-    font-size: 23px;
+    font-size: larger;
     margin-right: 15px;
     color: rgb(139, 68, 68);
 
 }
 
 #contactBtn {
-    font-size: 23px;
+    font-size:x-large;
     margin-right: 15px;
     color: rgb(139, 68, 68);
     

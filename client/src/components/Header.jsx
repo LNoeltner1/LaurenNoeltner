@@ -10,7 +10,7 @@ class Header extends Component {
             <div className="row" id="navbarContainer">
                 
                 <div className="col-1"></div>
-                <div className="col-md-10">
+                <div className="col-xs-12 col-md-10">
                     <Navbar>
                         <NavLink id="homeBtn" to="/">Lauren Noeltner</NavLink>
                         <NavLink id="aboutBtn" to="/About">About Me</NavLink>

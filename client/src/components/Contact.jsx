@@ -27,7 +27,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="linkedinLink col-12">
                         <h2> 
-                            <a className="contactLinks" href="https://www.linkedin.com/in/lauren-noeltner-102b731a0">Contact Me via LinkedIn</a>
+                            <a className="contactLinks" href="https://www.linkedin.com/in/lauren-noeltner-102b731a0">Contact Me on LinkedIn</a>
                         </h2>
                     </div>
                 </div>
