@@ -27,7 +27,8 @@ const About = () => {
                 <div className="col-xs-12 col-sm-12 col-md-3">
                     <img alt="Lauren Noeltner" className="profileImg" src={LaurenIMG} />
                 </div>
-                <div id="bioText" className="col-xs-12 col-sm-12 col-md-7">
+                <div className="col-xs-1 col-sm-0 col-md-0"></div>
+                <div id="bioText" className="col-xs-11 col-sm-11 col-md-7">
                     <p>
                         I am a full-stack developer currently based in Atlanta,
                         Georgia. I have always had a wide range of interests, from fine
@@ -36,7 +37,8 @@ const About = () => {
                     </p>
                     <p>
                         My interests in technology, psychology, music, history, literature and medicine motivate me to 
-                        incorporate my eclectic knowledge into to my work as a programmer. </p>
+                        incorporate my eclectic knowledge into to my work as a programmer. 
+                    </p>
                     
                     <p>
                         Since college, I have continued to enjoy learning independently, and,
@@ -55,7 +57,7 @@ const About = () => {
                         See my portfolio for some of my completed projects from inside and outside of class!
                     </p>
                 </div>
-                <div className="col-sm-1"></div>
+                {/* <div className="col-xs-1 col-sm-1"></div> */}
 
             </div>
             <Footer />

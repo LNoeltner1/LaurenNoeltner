@@ -1,7 +1,6 @@
 import React from 'react';
 import "../App.css";
-// import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Card from "react-bootstrap/Card";
+ import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Header from "./Header";
 // import Footer from "./Footer";

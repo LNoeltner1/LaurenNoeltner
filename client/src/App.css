@@ -79,7 +79,8 @@ body {
 
 /* ABOUT ME PAGE STUFF */
 .profileImg {
-    max-height: 30em;
+    max-width: 75%;
+    
     
 }
 
