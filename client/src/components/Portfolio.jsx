@@ -54,7 +54,7 @@ const Portfolio = () => {
                                 screentime, or whatever the parent can think of!
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/GiddyItUp">GitHub Repository</a>
-                            <a className="liveLink" href="https://giddyitup-eg.herokuapp.com/">Visit Live Project!</a>
+                            <a className="liveLink" href="https://giddyitup-eg.herokuapp.com/">Visit Project!</a>
                             </Card.Body>
                         </Card>
                  
@@ -69,7 +69,7 @@ const Portfolio = () => {
                                 over time. 
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/workout_tracker">GitHub Repository</a>
-                            <a className="liveLink" href="https://workout-tracker-3.herokuapp.com/">Visit Live Project!</a>
+                            <a className="liveLink" href="https://workout-tracker-3.herokuapp.com/">Visit Project!</a>
                             </Card.Body>
                         </Card>
                      
@@ -88,7 +88,7 @@ const Portfolio = () => {
                                 MongoDB database and Handlebars.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/cryptic-encounters">GitHub Repository</a>
-                            <a className="liveLink" href="https://cryptic-encounter.herokuapp.com">Visit Live Project!</a>
+                            <a className="liveLink" href="https://cryptic-encounter.herokuapp.com">Visit Project!</a>
                             </Card.Body>
                         </Card>
                     
@@ -114,7 +114,7 @@ const Portfolio = () => {
                                 length and the types of characters they want to include in their password.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub Repository</a>
-                            <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Live Project!</a>
+                            <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Project!</a>
                             </Card.Body>
                         </Card>
                       
@@ -127,7 +127,7 @@ const Portfolio = () => {
                                 measuring units for more fun conversions.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/the_everything_calculator">GitHub Repository</a>
-                            <a className="liveLink" href="https://everything-converter.herokuapp.com/">Visit Live Project!</a>
+                            <a className="liveLink" href="https://everything-converter.herokuapp.com/">Visit Project!</a>
                             </Card.Body>
                         </Card>
 
@@ -142,7 +142,7 @@ const Portfolio = () => {
                                 and can even view a graph of their spending over the lifespan of the local database.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/budget-tracker">GitHub Repository</a>
-                            <a className="liveLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Visit Live Project!</a>
+                            <a className="liveLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Visit Project!</a>
                             </Card.Body>
                         </Card>
                         

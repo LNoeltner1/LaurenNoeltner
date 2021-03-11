@@ -79,15 +79,23 @@ body {
 
 /* ABOUT ME PAGE STUFF */
 .profileImg {
-    max-width: 75%;
+    max-width: 100%;
     
     
 }
 
+@media only screen and (max-width: 575px) {
+   .profileImg {
+       max-width: 50%;
+   }
+}
+
+
 #bioText {
     font-size: larger;
     background-color: rgba(255, 255, 255, 0.397);
-    padding: 1%;
+    margin-left: 1.5%;
+    max-width: 75%;
 }
 
 /* PORTFOLIO STUFF */
@@ -95,9 +103,11 @@ body {
 .repoLink, .liveLink {
     color: white;
     border-style: solid;
-    padding: 10px;
+    padding: 3px;
+    margin: 3px;
     border-color: rgb(182, 143, 143);
     background-color: rgb(170, 70, 70);
+    font-size: small;
 
 }
 .liveLink {
@@ -111,19 +121,24 @@ body {
 .githubLink {
     text-align: center;
     margin: 4%;
+
 }
 
 .linkedinLink {
     text-align: center;
     margin: 4%;
+    
+
+
 }
 
 .contactLinks {
     color: rgb(82, 42, 42);
     border-style: solid;
     border-color: black;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(255, 255, 255, 0.712);
+    font-size: large;
     
 }
 
