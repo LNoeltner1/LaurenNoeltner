@@ -48,8 +48,9 @@ const Portfolio = () => {
                                 Wild West-themed chore app for young children, who can enlist as 
                                 'Deputies' to their parents (the 'Sheriffs') and complete extra 
                                 chores around the house in exchange for points. Points can earn 
-                                them extra privileges at home, such as a later bedtime, a more 
-                                screentime, or whatever the parent can think of!
+                                them extra privileges at home! Made with MongoDB, Express, React, Node,
+                                Bootstrap, and REST API. I was responsible for the concept, wireframing, the bounty board functionality, and 
+                                both front and back end.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/GiddyItUp">GitHub Repository</a>
                             <a className="liveLink" href="https://giddyitup-eg.herokuapp.com/">Visit Project!</a>
@@ -78,12 +79,12 @@ const Portfolio = () => {
                             <Card.Text className="descriptionText">
                                 A delightfully spooky haunted house walk through game with interactive dialogue 
                                 and varying content. The player finds themselves trapped in 
-                                a haunted house, populated by a group of not-so-mean ghosts.
+                                a haunted house, populated by a group of ghosts.
                                 They must interact with all of these ghosts to escape the house, 
                                 and have the option of choosing positive or negative interactions
                                 with corresponding responses from the spirits.
-                                Made using a persona generator API, a backend 
-                                MongoDB database and Handlebars.
+                                Made using a persona generator API,
+                                MongoDB, Handlebars, Node, and Express. I was responsible for the concept, story, and both the front and back end. 
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/cryptic-encounters">GitHub Repository</a>
                             <a className="liveLink" href="https://cryptic-encounter.herokuapp.com">Visit Project!</a>
@@ -113,7 +114,7 @@ const Portfolio = () => {
                             <Card.Title className="titleText">The Everything Converter</Card.Title>
                             <Card.Text className="descriptionText">
                                 Online React unit conversion app including standard (metric and imperial) for everyday mathematical conversions and non-standard 
-                                measuring units for more fun conversions.
+                                measuring units for more fun conversions. Created with Express, Node and React as a fun side-project. 
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/the_everything_calculator">GitHub Repository</a>
                             <a className="liveLink" href="https://everything-converter.herokuapp.com/">Visit Project!</a>
@@ -129,7 +130,7 @@ const Portfolio = () => {
                             <Card.Body>
                             <Card.Title className="titleText">CLI ReadME Generator</Card.Title>
                             <Card.Text className="descriptionText">
-                            A CLI README generator node app that will prompt
+                            A CLI README generator Node app that will prompt
                             the user for information about their project and generate a markdown page upon completion.
                             </Card.Text>
                             <a className="repoLink" href="https://github.com/LNoeltner1/README_Generator">GitHub Repository</a>
