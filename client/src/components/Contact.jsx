@@ -4,6 +4,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import githubLogo from "../Images/logos/githubLogo.png";
 import linkedinLogo from "../Images/logos/linkedinLogo.png";
+import Resume from "../Images/LaurenNoeltner_Resume.pdf";
+
 
 
 const Contact = () => {
@@ -39,9 +41,12 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    
-                </div>
+                <div className="row" id="resumeBtn">
+                    <div className="viewMoreBtns col-12">
+                        <a className="homeNav"  href={Resume} target="_blank">View My Resume</a>
+                    </div>
+                
+            </div>
                 {/* add CODEPEN, HACKERRANK */}
                 {/* Add CONTACT FORM */}
             <Footer />

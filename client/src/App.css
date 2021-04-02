@@ -30,9 +30,9 @@
 
 /* GENERAL */
 .pageTitle {
-    background-color: rgb(173, 97, 97);
+    /* background-color: rgb(173, 97, 97); */
     padding: 10px;
-    color: white;
+    color: black;
     margin: 15px;
 }
 
@@ -63,12 +63,16 @@ html, .mainWrapper {
 /* LINKS ON LANDING PAGE */
 .viewMoreBtns {
     text-align: center;
-   margin-top: 1rem;
-
+    margin-top: 1rem;
 }
+
+#resumeBtn {
+    margin-top:2rem;
+}
+
 .homeNav {
     margin: 0.5rem;
-    padding: 1.4rem;
+    padding: 1rem;
     color: black;
     border-width: 1px;
     border-color: black;
@@ -94,6 +98,7 @@ html, .mainWrapper {
     text-align: center;
     padding-left: 2rem;
     padding-right:2rem;
+    padding-top: 1rem;
     background-color: rgba(255, 255, 255, 0.397);
     
     
@@ -131,7 +136,7 @@ html, .mainWrapper {
 }
 
 .contactLogos {
-    max-width: 5%;
+    max-width: 10%;
 }
 
 #carouselWrapper {

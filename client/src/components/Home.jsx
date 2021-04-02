@@ -32,11 +32,16 @@ const Home = () => {
                     <Link className="homeNav" to="/About">About Me</Link>
                     <Link className="homeNav" to="/Portfolio">Portfolio</Link>
                     <Link className="homeNav" to="/Contact">Contact Me</Link>
+                     
                 </div>
-                <div className="col-12">
-                    <a className="homeNav" href={Resume} target="_blank">View My Resume</a>   
-                </div>  
+                
             </div> 
+            <div className="row" id="resumeBtn">
+                <div className="viewMoreBtns col-12">
+                    <a className="homeNav"  href={Resume} target="_blank">View My Resume</a>
+                </div>
+                
+            </div>  
             <Footer />
         </div>
     );
