@@ -119,25 +119,19 @@ body {
 
 
 /* CONTACT STUFF */
-.githubLink {
-    text-align: center;
-    /* margin: 4%; */
-
-}
-
-.linkedinLink {
-    text-align: center;
-    
-
-}
-
-.contactLinks {
+.githubLink, .linkedinLink {
     color: rgb(82, 42, 42);
     border-style: solid;
     border-color: black;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.712);
     font-size: large;
+    margin:0.3rem;
+}
+
+
+.contactLinks {
+    text-align: center;
     
 }
 
