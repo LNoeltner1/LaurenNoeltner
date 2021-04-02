@@ -22,7 +22,7 @@
 }
 
 #contactBtn {
-    font-size:x-large;
+    font-size:larger;
     margin-right: 15px;
     color: rgb(139, 68, 68);
     
@@ -51,8 +51,8 @@ body {
 #homeLauren {
     text-align: center;
     margin-top: 1%;
-    background-color: rgb(173, 97, 97);
-    color: white;
+    /* background-color: rgb(173, 97, 97); */
+    color: Black;
 }
 
 #descriptionHome {
@@ -61,10 +61,22 @@ body {
     margin: 1%;
 }
 
-.viewMoreBtn {
+/* LINKS ON LANDING PAGE */
+.viewMoreBtns {
     text-align: center;
-    margin-top: 1%;
+    /* margin-top: 1%; */
+   margin-top: 1rem;
+
 }
+.homeNav {
+    margin: 0.5rem;
+    padding: 1.4rem;
+    color: black;
+     border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
 .viewMore {
     border-color: black;
     border-width: 2px;
@@ -78,24 +90,15 @@ body {
 }
 
 /* ABOUT ME PAGE STUFF */
-.profileImg {
-    max-width: 100%;
-    
-    
-}
-
-@media only screen and (max-width: 575px) {
-   .profileImg {
-       max-width: 50%;
-   }
-}
-
 
 #bioText {
-    font-size: larger;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right:2rem;
     background-color: rgba(255, 255, 255, 0.397);
-    margin-left: 1.5%;
-    max-width: 75%;
+    
+    
 }
 
 /* PORTFOLIO STUFF */
@@ -115,8 +118,6 @@ body {
 }
 
 
-
-
 /* CONTACT STUFF */
 .githubLink {
     text-align: center;
@@ -127,8 +128,6 @@ body {
 .linkedinLink {
     text-align: center;
     margin: 4%;
-    
-
 
 }
 

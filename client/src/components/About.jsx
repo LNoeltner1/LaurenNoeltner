@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import Footer from "./Footer";
 import "../App.css";
-import LaurenIMG from "../Images/IMG_0575_83501212705938.JPG";
 // import texture from "../Images/paintTexture.jpeg";
 
 
@@ -22,12 +21,10 @@ const About = () => {
             </div>
             <hr />
             <div className="row">
-                <div className="col-xs-0 col-sm-1 col-md-1"></div>
+                
 
-                <div className="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Lauren Noeltner" className="profileImg" src={LaurenIMG} />
-                </div>
-                <div id="bioText" className="col-xs-12 col-sm-7 col-md-7">
+                <div className="col-1"></div>
+                <div id="bioText" className="col-10">
                     <p>
                         I am a full-stack developer currently based in Atlanta,
                         Georgia. I have always had a wide range of interests, from fine
@@ -56,7 +53,8 @@ const About = () => {
                         See my portfolio for some of my completed projects from inside and outside of class!
                     </p>
                 </div>
-                {/* <div className="col-xs-1 col-sm-1"></div> */}
+                <div className="col-1"></div>
+                
 
             </div>
             <Footer />

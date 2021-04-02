@@ -23,12 +23,14 @@ const Home = () => {
             <hr></hr>
             <div className="row">
                 <div className="col-12">
-                    <h3 id="descriptionHome">Full Stack Web Developer in Atlanta, GA, always looking for new opportunities to strengthen my skills and create innovative apps.</h3>
+                    <h3 id="descriptionHome">Full Stack Web Developer in Atlanta, GA, always looking for new opportunities to strengthen my skills and contribute to innovative applications.</h3>
                 </div>   
             </div> 
             <div className="row">
-                <div className="viewMoreBtn col-12">
-                    <Link className="viewMore" to="/About">View More... </Link>
+                <div className="viewMoreBtns col-12">
+                    <Link className="homeNav" to="/About">About Me</Link>
+                    <Link className="homeNav" to="/Portfolio">Portfolio</Link>
+                    <Link className="homeNav" to="/Contact">Contact Me</Link>
                 </div>   
             </div> 
             <Footer />

@@ -9,8 +9,6 @@ import GiddyItUp from "../Images/GiddyItUp_screenshot.png";
 import Cryptic from "../Images/cryptic_encounters_screenshot.png";
 import Budget from "../Images/budget_tracker_screenshot.png";
 import Workout from "../Images/workout_screenshot_charts.png";
-import TeamGenerator from "../Images/teamgeneratorthumbnail.png";
-import Password from "../Images/03-javascript-homework-demo.png";
 import Readme from "../Images/Screenshot.png";
 import Converter from "../Images/everything-converter-screenshot.png";
 
@@ -92,29 +90,20 @@ const Portfolio = () => {
                             </Card.Body>
                         </Card>
                     
-                        <Card className="individualCard">
-                            <Card.Img variant="top" src={TeamGenerator} className="cardImage"/>
-                            <Card.Body>
-                            <Card.Title className="titleText">Employee Summary Template Generator CLI</Card.Title>
-                            <Card.Text className="descriptionText">
-                                A CLI app for generating a page that shows all employees in an organized 
-                                way. The user can input name, title and other factors depending on their title.
-                            </Card.Text>
-                            <a className="repoLink" href="https://github.com/LNoeltner1/Employee_Summary_Template_Engine">GitHub Repository</a>
-                            </Card.Body>
-                        </Card>
+
               
                         <Card className="individualCard">
-                            <Card.Img variant="top" src={Password} className="cardImage"/>
+                            <Card.Img variant="top" src={Budget} className="cardImage"/>
                             <Card.Body>
-                            <Card.Title className="titleText">Random Password Generator</Card.Title>
+                            <Card.Title className="titleText">Budget Tracker</Card.Title>
                             <Card.Text className="descriptionText">
-                                A random password generator app with the option to use or 
-                                not use different character types. The user can specify the 
-                                length and the types of characters they want to include in their password.
+                                Online/offline budget tracker using a 
+                                local database to store user information over sessions.
+                                The user can input and view a list of expenses and spending over time, 
+                                and can even view a graph of their spending over the lifespan of the local database.
                             </Card.Text>
-                            <a className="repoLink" href="https://github.com/LNoeltner1/Random_Password_Generator_App">GitHub Repository</a>
-                            <a className="liveLink" href="https://lnoeltner1.github.io/Random_Password_Generator_App/">Visit Project!</a>
+                            <a className="repoLink" href="https://github.com/LNoeltner1/budget-tracker">GitHub Repository</a>
+                            <a className="liveLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Visit Project!</a>
                             </Card.Body>
                         </Card>
                       
@@ -131,20 +120,7 @@ const Portfolio = () => {
                             </Card.Body>
                         </Card>
 
-                        <Card className="individualCard">
-                            <Card.Img variant="top" src={Budget} className="cardImage"/>
-                            <Card.Body>
-                            <Card.Title className="titleText">Budget Tracker</Card.Title>
-                            <Card.Text className="descriptionText">
-                                Online/offline budget tracker using a 
-                                local database to store user information over sessions.
-                                The user can input and view a list of expenses and spending over time, 
-                                and can even view a graph of their spending over the lifespan of the local database.
-                            </Card.Text>
-                            <a className="repoLink" href="https://github.com/LNoeltner1/budget-tracker">GitHub Repository</a>
-                            <a className="liveLink" href="https://budget-tracker-lnoeltner.herokuapp.com/">Visit Project!</a>
-                            </Card.Body>
-                        </Card>
+                        
                         
                         
                       
