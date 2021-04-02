@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 // import About from "./About";
 import "../App.css";
+import Resume from "../Images/LaurenNoeltner_Resume.pdf";
 
 
 
@@ -31,7 +32,10 @@ const Home = () => {
                     <Link className="homeNav" to="/About">About Me</Link>
                     <Link className="homeNav" to="/Portfolio">Portfolio</Link>
                     <Link className="homeNav" to="/Contact">Contact Me</Link>
-                </div>   
+                </div>
+                <div className="col-12">
+                    <a className="homeNav" href={Resume} target="_blank">View My Resume</a>   
+                </div>  
             </div> 
             <Footer />
         </div>

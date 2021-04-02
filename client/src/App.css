@@ -36,9 +36,12 @@
     margin: 15px;
 }
 
+
+/* BG COLOR */
 html, .mainWrapper {
     background-color: rgba(173, 97, 97, 0.26);
-    max-height:100vh;
+    max-height:100vh; 
+    /* max height not working? */
     
 }
 

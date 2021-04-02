@@ -77,7 +77,7 @@ const Portfolio = () => {
                             <Card.Body>
                             <Card.Title className="titleText">Cryptic Encounters</Card.Title>
                             <Card.Text className="descriptionText">
-                                A delightfully spooky haunted house walk through game with interactive dialogue 
+                                A haunted house walk through game with interactive dialogue 
                                 and varying content. The player finds themselves trapped in 
                                 a haunted house, populated by a group of ghosts.
                                 They must interact with all of these ghosts to escape the house, 
