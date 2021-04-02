@@ -36,13 +36,9 @@
     margin: 15px;
 }
 
-body {
-    background-image: url(./Images/whitePaint.jpeg);
-    max-height: 100vh;
-    
-    /* background-repeat: repeat-y;
-    background-repeat: repeat-x;  */
-    
+html, .mainWrapper {
+    background-color: rgba(173, 97, 97, 0.26);
+    max-height:100vh;
     
 }
 
@@ -64,7 +60,6 @@ body {
 /* LINKS ON LANDING PAGE */
 .viewMoreBtns {
     text-align: center;
-    /* margin-top: 1%; */
    margin-top: 1rem;
 
 }
@@ -72,7 +67,7 @@ body {
     margin: 0.5rem;
     padding: 1.4rem;
     color: black;
-     border-width: 1px;
+    border-width: 1px;
     border-color: black;
     border-style: solid;
 }
