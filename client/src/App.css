@@ -38,7 +38,7 @@
 
 
 /* BG COLOR */
-html, .mainWrapper {
+body {
     background-color: rgba(173, 97, 97, 0.26);
     max-height:100vh; 
     /* max height not working? */
