@@ -113,11 +113,11 @@
 /* PORTFOLIO STUFF */
 
 .repoLink, .liveLink {
-    color: white;
+    color: black;
     border-style: solid;
     padding: 3px;
     margin: 3px;
-    border-color: rgb(182, 143, 143);
+    border-color:rgb(133, 5, 54);
     /* background-color: rgb(170, 70, 70); */
     font-size: small;
 
@@ -140,9 +140,13 @@
     text-align: center;
     
 }
-
+/* github and linkedin logos on contact page */
 .contactLogos {
     max-width: 10%;
+}
+/* mouse over text or logos */
+.contactLogos, p {
+    color: black;
 }
 
 #carouselWrapper {
@@ -156,6 +160,6 @@
     text-align: center;
     margin: 0px;
     /* padding: 10px; */
-    font-size: 15px;
+    font-size: 0.7rem;
     background-color: rgba(255, 255, 240, 0.603);
 }
