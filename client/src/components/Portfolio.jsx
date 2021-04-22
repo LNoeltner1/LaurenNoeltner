@@ -27,7 +27,7 @@ const Portfolio = () => {
                     <h2 className="col-10 pageTitle">
                         My Projects
                     </h2>
-                    <hr />
+                    
                     <div className="col-1"></div>
 
                 </div>
