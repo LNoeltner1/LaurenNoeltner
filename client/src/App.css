@@ -15,6 +15,7 @@
     border-radius: 5px;
     color: rgb(239, 239, 239);
   }
+
   
   /* navbar */
   .navbar {
@@ -36,11 +37,34 @@
     background-color: white;
   }
 
+
+/* landing page */
+#homeLauren {
+    color: teal;
+    text-align: center;
+}
+
+#descriptionHome {
+    text-align: center;
+}
+.viewMoreBtns {
+    text-align: center;
+
+    
+}
+.homeNav {
+    padding: 1rem;
+    margin: 1rem;
+    border-style: solid;
+    border-color: teal;
+    color: black;
+}
+
 /* GENERAL */
 .pageTitle {
     /* background-color: rgb(173, 97, 97); */
     padding: 10px;
-    color: rgb(58, 111, 136);
+    color: black;
     margin: 15px;
 }
 
@@ -50,7 +74,7 @@
 .App {
     width: 100%;
     height: 100vh;
-    background-color: rgb(68, 2, 27);
+    background-color: rgb(255, 255, 255);
 }
     
   
@@ -65,6 +89,8 @@
    
     padding: 0.5rem;
     margin:0.3rem; 
+    max-width: 20%;
+    justify-items: center;
     
 }
 
@@ -78,9 +104,7 @@
     max-width: 10%;
 }
 /* mouse over text or logos */
-.contactLogos, p {
-    color: black;
-} */
+
 
 #carouselWrapper {
 

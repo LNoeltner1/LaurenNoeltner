@@ -23,10 +23,13 @@ const Home = () => {
             </div> 
             <hr></hr>
             <div className="row">
-                <div className="col-12">
+                <div className="col-1"></div>
+                <div className="col-10">
                     <h3 id="descriptionHome">Full Stack Web Developer in Atlanta, GA, always looking for new opportunities to strengthen my skills and contribute to innovative applications.</h3>
-                </div>   
+                </div>
+                <div className="col-1"></div>   
             </div> 
+            <br />
             <div className="row">
                 <div className="viewMoreBtns col-12">
                     <Link className="homeNav" to="/About">About Me</Link>
@@ -36,6 +39,8 @@ const Home = () => {
                 </div>
                 
             </div> 
+            <br />
+            <br />
             <div className="row" id="resumeBtn">
                 <div className="viewMoreBtns col-12">
                     <a className="homeNav"  href={Resume} target="_blank">View My Resume</a>

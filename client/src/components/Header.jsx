@@ -23,7 +23,7 @@ class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ml-auto">
-                        <div><NavLink to="/" className="headBtn" activeClassName="selected">About Me</NavLink></div>
+                        <div><NavLink to="/About" className="headBtn" activeClassName="selected">About Me</NavLink></div>
                         <div><NavLink to="/Portfolio" className="headBtn" activeClassName="selected">Portfolio</NavLink></div>
                         <div><NavLink to="/Contact" className="headBtn" activeClassName="selected">Contact Me</NavLink></div>
                         </div>

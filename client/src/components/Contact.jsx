@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import "../App.css";
+import Header from "./Header";
+import Github from "../Images/logos/githubLogo.png";
+import Linkedin from "../Images/logos/linkedinLogo.png";
 
 class Contact extends Component {
     render() {
         return (
             <div>
+                <Header />
                 <br />
                 <br />
                 <main className="container">
@@ -20,10 +24,10 @@ class Contact extends Component {
                     <hr />
                     <container>
                         <a href="https://www.linkedin.com/in/lauren-noeltner-102b731a0/">
-                            <button className="linkedinlink">LinkedIn Profile</button>
+                            <img className="linkedinLink" src={Linkedin}></img>
                         </a>
                         <a href="https://github.com/LNoeltner1">
-                            <button className="githublink">GitHub Profile</button>
+                            <img className="githubLink" src={Github}></img>
                         </a>
                     </container>
                     <form
