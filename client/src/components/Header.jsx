@@ -8,26 +8,14 @@ class Header extends Component {
         return (
         
             <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-light bg-light">
                     <NavLink to="/" activeClassName="selected" id="myName">Lauren Noeltner</NavLink>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav ml-auto">
-                        <div><NavLink to="/About" className="headBtn" activeClassName="selected">About Me</NavLink></div>
-                        <div><NavLink to="/Portfolio" className="headBtn" activeClassName="selected">Portfolio</NavLink></div>
-                        <div><NavLink to="/Contact" className="headBtn" activeClassName="selected">Contact Me</NavLink></div>
-                        </div>
-                    </div>
+                    
+                    <NavLink to="/About" className="headBtn" activeClassName="selected">About</NavLink>
+                    <NavLink to="/Portfolio" className="headBtn" activeClassName="selected">Portfolio</NavLink>
+                    <NavLink to="/Contact" className="headBtn" activeClassName="selected">Contact</NavLink>
+
+                    
                 </nav>
             </div>
 
