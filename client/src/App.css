@@ -1,32 +1,40 @@
 /* NAVBAR */
 
-#homeBtn {
+#myName {
+    background-color: teal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 30px;
-    margin-right: 10px;
-    color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.863);
     font-weight: 600;
-}
-
-#aboutBtn {
-    font-size: larger;
-    margin-right: 15px;
-    color:rgb(58, 111, 136);
-
-}
-
-#portfolioBtn {
-    font-size: larger;
-    margin-right: 15px;
-    color: rgb(58, 111, 136);
-
-}
-
-#contactBtn {
-    font-size:larger;
-    margin-right: 15px;
-    color: rgb(58, 111, 136);
-    
-}
+    margin-left: 5%;
+    border-radius: 5px;
+    color: rgb(239, 239, 239);
+  }
+  
+  /* navbar */
+  .navbar {
+    border-radius: 3px;
+    border: teal;
+    border-style: solid;
+  }
+  
+  .headBtn {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: teal;
+    border-radius: 5px;
+    border-color: teal;
+    border-width: 2px;
+    font-weight: 500;
+    border-style: solid;
+    padding: 9px;
+    background-color: white;
+  }
 
 /* GENERAL */
 .pageTitle {
@@ -48,83 +56,8 @@
   
 
 
-/* HOME PAGE ITEMS */
 
-#homeLauren {
-    text-align: center;
-    margin-top: 1%;
-    /* background-color: rgb(173, 97, 97); */
-    color: white;
-}
 
-#descriptionHome {
-    text-align: center;
-    padding: 3%;
-    margin: 1%;
-    color:rgb(58, 111, 136);
-}
-
-/* LINKS ON LANDING PAGE */
-.viewMoreBtns {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-#resumeBtn {
-    margin-top:2rem;
-}
-
-.homeNav {
-    margin: 0.5rem;
-    padding: 1rem;
-    color: black;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    background-color: rgb(6, 49, 2);
-}
-
-.viewMore {
-    border-color: black;
-    border-width: 2px;
-    font-weight: 700;
-    border-style: solid;
-    padding: 8px;
-    color: black;
-    padding: 1%;
-    font-weight: 800;
-    /* background-color: lightcoral; */
-}
-
-/* ABOUT ME PAGE STUFF */
-
-#bioText {
-    font-size: 1rem;
-    text-align: center;
-    padding-left: 2rem;
-    padding-right:2rem;
-    padding-top: 1rem;
-    /* background-color: rgba(255, 255, 255, 0.397); */
-    color: white;
-    
-    
-}
-
-/* PORTFOLIO STUFF */
-
-.repoLink, .liveLink {
-    color: black;
-    border-style: solid;
-    padding: 3px;
-    margin: 3px;
-    border-color:rgb(133, 5, 54);
-    /* background-color: rgb(170, 70, 70); */
-    font-size: small;
-
-}
-.liveLink {
-    margin-left: 1%;
-}
 
 
 /* CONTACT STUFF */
@@ -141,13 +74,13 @@
     
 }
 /* github and linkedin logos on contact page */
-.contactLogos {
+/* .contactLogos {
     max-width: 10%;
 }
 /* mouse over text or logos */
 .contactLogos, p {
     color: black;
-}
+} */
 
 #carouselWrapper {
 
