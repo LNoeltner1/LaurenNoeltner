@@ -22,22 +22,15 @@ class About extends Component {
                     
                     <br /><br />
                     <p>
-                        I am a full-stack developer born and currently based in Atlanta,
-                        Georgia. I am currently attending Georgia Tech's Full-Stack Flex
+                        I am a full-stack web developer in Atlanta,
+                        Georgia and a graduate of Georgia Tech's Full-Stack Flex
                         Boot Camp. I have always had a wide range of interests, from fine
                         arts to the hard sciences, and I have been lucky to get a chance to
                         explore most of them at some point in my life.
                     </p>
+
                     <p>
-                        I began at university in 2011 at the University of Georgia with a
-                        focus in Pre-Veterinary Medicine, which switched to Anthropology
-                        after a year and switched again to Psychology with a minor in
-                        Spanish and Painting after another year. I attended U.G.A. until the
-                        end of my Junior year, when I decided to leave Athens to return to
-                        Atlanta.
-                    </p>
-                    <p>
-                        Since then, I have continued to enjoy learning independently, and,
+                        I have continued to enjoy learning independently, and,
                         in my spare time, I am almost always researching whatever fascinates
                         me in that moment. I love learning about history, language, animals,
                         the arts, space, computers and technology. I am currently teaching
@@ -47,9 +40,7 @@ class About extends Component {
                         painting/making something.
                     </p>
                     <p>
-                        I am more than halfway through the Georgia Tech Coding Boot Camp,
-                        and I am greatly enjoying the opportunity to strengthen my skills as
-                        a developer. See my portfolio for some of my completed projects!
+                        I am currently looking for work in the industry, and cannot wait to both learn and add my knowledge to any project. See my portfolio for some of my completed projects!
                     </p>
                     </div>
                 </section>
