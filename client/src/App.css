@@ -94,6 +94,16 @@
     
 }
 
+.repoLink, .liveLink {
+    border: solid black 2px;
+    padding: .3rem;
+    margin: 3px;
+    color:black;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 128, 0.493);
+
+}
+
 
 .contactLinks {
     text-align: center;
