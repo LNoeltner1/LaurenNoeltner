@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 // import About from "./About";
 import "../App.css";
-import Resume from "../Images/LaurenNoeltner_Resume.pdf";
+import Resume from "../Images/Resume_LaurenNoeltner.pdf";
 
 
 
